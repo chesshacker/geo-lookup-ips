@@ -1,8 +1,9 @@
 # Geo Lookup IPs
 
 I needed to lookup geolocation info for a list of IPs, and came upon [IP
-Location Lite](https://lite.ip2location.com/file-download). You will need to
-download the latest `IP2LOCATION-LITE-DB11.BIN` file.
+Location Lite](https://lite.ip2location.com/database-download). You will need to
+download the latest `IP2LOCATION-LITE-DB11.BIN` file (DB11.LITE, IPv4 Database,
+BIN format).
 
 I haven't made any pretty command-line flags or anything either. It reads stdin
 and writes csv to stdout. Running this:
